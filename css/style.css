@@ -1,0 +1,75 @@
+.btn-menu {
+    width: 100%;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+#header .col-xs-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.container-fluid {
+    position: relative;
+}
+.margin-footer {
+    margin-top: 60px;
+}
+#footer {
+    background: #333;
+    padding: 10px;
+    font-size: 16px;
+    color: #ccc;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#search {
+    text-indent: 20px;
+}
+.margin-top {
+    margin-top: 20px;
+}
+.issue-title, .issue-type, .task-title, .action-title {
+    font-size: 18px;
+}
+.issue-row {
+    margin-bottom: 10px;
+}
+.issue-row:hover {
+    background: #f2f2f2;
+    cursor: pointer;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.alert-hidden {
+    display: none;
+}
+label {
+    font-weight: normal;
+}
+a.high-priority {
+    color: red;
+}
+.done-task {
+    color: blue;
+    font-weight: bold;
+}
+.sort-icon {
+    display: none;
+}
+.loadingDiv{position:fixed;top:0px;right:0px;width:100%;height:100%;background-color:#666;background-image:url('../img/ajax-loader.gif'); background-repeat:no-repeat;background-position:center;z-index:10000000;  opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */}
